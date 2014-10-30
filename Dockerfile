@@ -16,4 +16,4 @@ RUN /opt/ruby-build/install.sh
 RUN apt-get clean
 
 # build ruby 2.1.3
-RUN /opt/ruby-build/bin/ruby-build 2.1.3 /opt/rubies
+RUN /opt/ruby-build/bin/ruby-build -k 2.1.3 /opt/rubies
